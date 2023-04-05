@@ -24,10 +24,11 @@ public class Oop1_classes {
             this.gender=copy.gender;
          }
     }
+    
     public static void main(String[] args) {
 
         Human male=new Human("Sidhant",21,'m');
-        
+
         Human Person=new Human(male);
 
         System.out.println(male.age);
