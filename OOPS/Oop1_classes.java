@@ -3,6 +3,13 @@ public class Oop1_classes {
         char gender;
         int age;
         String name;
+        //final keyword 
+        final int exp=20;
+        
+        protected void finalize( ) {
+            // finalization code here if any action to be done during garbage collection.
+            System.out.println("object is being destroyed");
+            }
 
         // Default constructor
 
@@ -27,18 +34,19 @@ public class Oop1_classes {
     
     public static void main(String[] args) {
 
-        Human male=new Human("Sidhant",21,'m');
+        // Human male=new Human("Sidhant",21,'m');
 
-        Human Person=new Human(male);
-
-        System.out.println(male.age);
-        System.out.println(male.gender);
-        System.out.println(male.name);
-
-        
-        System.out.println(Person.age);
-        System.out.println(Person.gender);
-        System.out.println(Person.name);
+        // Human Person=new Human(male);
+        // System.out.println(male.age);
+        // System.out.println(male.gender);
+        // System.out.println(male.name);
+        // System.out.println(Person.age);
+        // System.out.println(Person.gender);
+        // System.out.println(Person.name);
+        // System.out.println(male.exp);
+        for(int i=0;i<1000000;i++){
+            Human kid=new Human();
+        }
 
     }
 }
