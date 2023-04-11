@@ -44,9 +44,6 @@ public class Oop1_classes {
         // System.out.println(Person.gender);
         // System.out.println(Person.name);
         // System.out.println(male.exp);
-        for(int i=0;i<1000000;i++){
-            Human kid=new Human();
-        }
 
     }
 }
